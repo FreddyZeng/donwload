@@ -7,7 +7,7 @@ addEventListener('fetch', event => {
  * @param {Request} request
  */
 async function handleRequest(request) {
-  const url_string = "https://download.freddyzeng008.workers.dev"
+  const url_string = "https://download.175208.xyz"
 
   const response = await fetch(request.url.substring(url_string.length));
   console.log(request)
